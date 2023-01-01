@@ -39,3 +39,4 @@ const dropDatabase = async (databaseName) => {
 
 const databaseName = loadEnv()
 dropDatabase(databaseName)
+
