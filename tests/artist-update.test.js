@@ -22,5 +22,11 @@ describe('Update Artist', () => {
 
       expect(body).to.deep.equal({ id: artist.id, name: 'something different', genre: 'different genre' })
     })
+    it('returns a 404 if the artist does not exist', async () => {
+        const { status, body } = await request(app).put('/artists/999999999').send()
+  
+        expect(status).to.equal(404)
+        expect(body.message).to.equal('artist 999999999 does not exist')
+      })
   })
 })
