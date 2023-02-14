@@ -12,9 +12,10 @@ Testing has been done using [Mocha](https://mochajs.org/) & [Chai](https://www.c
 
 ## Getting Started
 
-After Forking and Cloning the repo: https://github.com/CB715/music-library add the relevant dependencies with; ```
-npm i
-```
+After Forking and Cloning the repo: https://github.com/CB715/music-library add the relevant dependencies with; 
+
+```npm i```
+
 
 The API endpoints are:
 
