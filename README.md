@@ -12,19 +12,20 @@ Testing has been done using [Mocha](https://mochajs.org/) & [Chai](https://www.c
 
 ## Getting Started
 
-After Forking and Cloning the repo: https://github.com/CB715/music-library add the relevant dependencies with npm i
+After Forking and Cloning the repo: https://github.com/CB715/music-library add the relevant dependencies with; ```
+npm i
+```
 
 The API endpoints are:
 
 | HTTP Method | URL | Description |
 | ------------- | ------------- | ------------- |
-| POST | '/' | Creates an artist |
-| GET | '/' | Get all artists |
-| GET | '/{id}' | Get artist by ID |
-| PUT | '/{id}' | Update an artist record |
-| PATCH | '/{id}' | Update an artist record |
-| DELETE | '/{id}' | Delete an artist by ID |
-
+| POST | / | Creates an artist |
+| GET | / | Get all artists |
+| GET | /{id} | Get artist by ID |
+| PUT | /{id} | Update an artist record |
+| PATCH | /{id} | Update an artist record |
+| DELETE | /{id} | Delete an artist by ID |
 
 
 ### To do
