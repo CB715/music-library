@@ -6,7 +6,7 @@ Please note, there is no GUI for this API therefore an application like [Postman
 
 ## Technologies and Concepts Covered
 
-Created using [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/). The database is PostgreSQL](https://www.postgresql.org/) with [pgAdmin](https://www.postgresql.org/ftp/pgadmin/pgadmin4/) & uses a [Docker](https://www.docker.com/) container. 
+Created using [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/). The database is [PostgreSQL](https://www.postgresql.org/) with [pgAdmin](https://www.postgresql.org/ftp/pgadmin/pgadmin4/) & uses a [Docker](https://www.docker.com/) container. 
 
 Testing has been done using [Mocha](https://mochajs.org/) & [Chai](https://www.chaijs.com/).
 
@@ -14,7 +14,12 @@ Testing has been done using [Mocha](https://mochajs.org/) & [Chai](https://www.c
 
 After Forking and Cloning the repo: https://github.com/CB715/music-library add the relevant dependencies with; 
 
-```npm i```
+```bash
+npm i # to install dependencies
+npm start # to run the application
+npm test  # to run the tests
+
+```
 
 
 The API endpoints are:
